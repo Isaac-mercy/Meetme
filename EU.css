@@ -1,0 +1,336 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "open sans", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6
+}
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.row-100{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.row-column-100{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.row-column {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.custom-font{
+    font-family: 'displafair displa',serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    color: green;
+    padding: 60px;
+    background-image: url('../img/profile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-heading{
+    font-size: 6rem;
+    font-style: italic;
+    padding: 0 2rem;
+}
+.profile-text{
+    font-size: 1.2rem;
+    font-weight: normal;
+    background-color: #fff;
+    color: black;
+    padding: 30px;
+}
+.announce-section{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #d9b1b3;
+    color:black;
+}
+.announce{
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.announce span{
+    font-size: 7rem;
+    line-height: 0;
+}
+.announce-section p{
+    width: 50%;
+    font-size: 1rem;
+}
+.gallery .img-container{
+    height: 450px;
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+
+
+.gallery .gallery-img-1{
+    background-image: url(../img/galleery-1.jpg);
+}
+
+.gallery .gallery-img-2{
+    background-image: url(../img/gallery-2.jpg);
+}
+.gallery .gallery-img-3{
+    background-image: url(../img/gallery-3.jpg);
+}
+.gallery .nature-img{
+    background-image: url(../img/nature.jpg);
+}
+
+.gallery .woman-img-1{
+    background-image: url(../img/woman-1.jpg);
+}
+
+.gallery .woman-img{
+    background-image: url(../img/woman.jpg);
+}
+.coming-soon{
+    background-color: #d9b1b3;
+    padding: 50px 0;
+    color: white;
+}
+.coming-soon .row-column-100{
+    justify-content: center;
+}
+
+.coming-soon .coming-soon-heading,
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form {
+    text-align: center;
+    
+}
+.coming-soon-heading{
+    font-size: 4rem;
+    font-style: italic;
+}
+.coming-soon .coming-soon-text{
+    font-size: 1.3rem;
+}
+.coming-soon .coming-soon-form {
+    margin-top: 35px;
+}
+.coming-soon-form .row-100{
+    justify-content: center;
+}
+
+.coming-soon-form .input-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
+.input-container .text-input,
+.input-container .form-btn{
+    padding: 10px 5px;
+    border: unset;
+    border-radius: 20px;
+}
+.input-container .form-btn{
+    background-color: black;
+    color: white;
+}
+.article{
+    background-color: #fff;
+    padding: 3rem;
+}
+.article-img-container, .article-text-container{
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    
+}
+.article-img-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 35%;
+}
+.article-img-container .article-img{
+    width: 100%;
+}
+.article-text-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 55%;
+    padding: 1.3rem;
+}
+.article-text-container .article-text{
+    font-size: 1.1rem;
+    font-weight: 100;
+    line-height: 3rem;
+}
+.slide{
+    padding: 3.5rem;
+    background-color: #d9b1b3;
+    color: #fff;
+}
+.slide .row-100{
+    justify-content: center;
+}
+.slide-heading {
+    font-size: 3.5rem;
+    font-style: italic;
+    margin-bottom: 1.3rem;
+}
+.slide-img-container{
+    flex-grow: 1;
+    height: 350px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0.6px;
+}
+.a-book-img{
+    background-image: url(../img/a-book.jpg);
+}
+.countryside-img{
+    background-image: url(../img/countryside.jpg);
+}
+.nature-img-1{
+    background-image: url(../img/nature-1.jpg);
+}
+.wallpaper-img{
+    background-image: url(../img/wallpaper.jpg);
+}
+.slide-icon-container{
+    margin-top: 1.4rem;
+    
+}
+.slide-icon-container i {
+    font-size: 2rem;
+}
+.product{
+    padding: 4.5rem;
+}
+.product-container{
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.product-container img{
+    width: 100%;
+}
+.product-container, .product-description{
+    padding: 0.5rem;
+}
+
+
+.product-description{
+    height: 300px;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+}
+.product-description h4{
+    font-size: 1.7rem;
+    font-weight: lighter;
+    text-align: left;
+    margin-bottom: 1.2rem;
+}
+.product-description .price-tag{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.product-description p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.product-description button{
+    width: 150px;
+    padding: .7rem;
+    border-radius: 1.3rem;
+    background-color: black;
+    color: #fff;border: unset;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.product-description button:hover{
+    background-color:#d9b1b3;
+}
+
+.subscribe-img-container, .subscribe-text-container{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    height: 100vh;
+}
+.subscribe-text-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-img-container{
+    background-image: url('../img/ip-14.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.subscribe-heading{
+    position: relative;
+    text-align: center;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: 800;
+}
+.subscribe-heading::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5ch;
+    transform: translateX(-50);
+    width: 75%;
+    height: 8px;
+    background-color: #d9b1b3;
+}
+.input-container input{
+    padding: 0.8rem 1rem;
+    margin: 1rem;
+}
+.input-container button{
+    width: 8rem;
+    padding: 0.7rem;
+    background-color: black;
+    color: #fff;
+    border: unset;
+    border-radius: 1.3rem;
+    text-transform: uppercase;
+}
+.input-container button:hover{
+    background-color: #d9b1b3;
+}
+.subscribe-text{
+    background-color: red;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: left;
+}
